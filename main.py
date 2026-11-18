@@ -1,4 +1,10 @@
-﻿import streamlit as st
+﻿# -*- coding: utf-8 -*-
+"""
+Tefekkür-i Kâinat & Vahdet Bilinci | Contemplation of the Universe
+Eksiksiz ve Güncellenmiş Streamlit Web Uygulaması
+"""
+
+import streamlit as st
 import streamlit.components.v1 as components
 
 # Sayfa Yapılandırması
@@ -169,26 +175,26 @@ mecraların ne denli geniş bir coğrafyaya anında nüfuz edebileceğinin fizik
                     "20. Kaynak: Sünen-i Tirmizi, Daavat, 50: Sabah ve akşam zikirlerinin fazileti hakkında var olan sahih rivayetler."
                 ],
                 "sages": [
-                    "1. Kaynak: İmam-ı Gazâlî, İhyâü Uvûmi'd-Din: Kâinat, Sani-i Zülcelal'in kudret kalemiyle yazılmış büyük bir kitaptır.",
-                    "2. Kaynak: Mevlânâ Celâleddîn-i Rûmî, Mesnevi (Cilt 1): 'Testinin içinde ne varsa dışına o sızar.'",
-                    "3. Kaynak: Muhyiddin İbn Arabî, Fusûsu'l-Hikem: Varlıkta tecelli eden her suret ilahi ilmin bir aynasıdır.",
-                    "4. Kaynak: Yunus Emre, Divan: 'Yaratılanı hoş görürüz Yaratandan ötürü.'",
-                    "5. Kaynak: Abdülkâdir Geylânî, Sırrü'l-Esrâr: Nefis aradan çekildiğinde faili hakiki muşahede edilir.",
-                    "6. Kaynak: İmam-ı Rabbânî, Mektûbât (1. Cilt): Sebepleri vesile bilip hakiki müessirin Allah olduğunu idrak etmek tevhittir.",
-                    "7. Kaynak: Şah-ı Nakşibend, Risale-i Kudsiye: 'Halvet der encümen' düsturu ile halk içinde Hak ile olmak.",
-                    "8. Kaynak: İbrahim Hakkı Erzurumî, Marifetname: 'Hak şerleri hayreyler, zannetme ki gayreyler.'",
-                    "9. Kaynak: Cüneyd-i Bağdâdî, Kuşeyri Risalesi: Tevhid, kulun beşeri sıfatlardan sıyrılıp Hak ile kaim olmasıdır.",
-                    "10. Kaynak: Beyazıd-i Bistâmî, Tezkiretü'l-Evliya: Hakiki marifet, arayanın da arattıranın da O olduğunu bilmektir.",
-                    "11. Kaynak: Hacı Bayrâm-ı Velî, Kaynaklarda geçen irfan düsturları: 'Kendini bilen Rabbini bilir.'",
-                    "12. Kaynak: Aziz Mahmud Hüdâyî, Sohbetnâme: Kâinattaki her zerrenin zikri kalbe feyiz akıtır.",
-                    "13. Kaynak: Niyâzî-i Mısrî, Divan-ı İlahiyat: 'Halk içinde bir ayinei mehrikes bakar bir an görür.'",
-                    "14. Kaynak: Sadreddin Konevî, Miftâhü'l-Gayb: Zerre ile küre arasında ilahi nizam bakımından fark yoktur.",
-                    "15. Kaynak: Bediüzzaman Said Nursî, Risale-i Nur Külliyâtı (Sözler - 33. Söz): Kâinat büyük bir mescit hükmündedir.",
-                    "16. Kaynak: Eşrefoğlu Rûmî, Müzekki'n-Nüfûs: Sanatkârı tespih etmek kalbin cilasıdır.",
-                    "17. Kaynak: Hasan-ı Basrî, Kelimat-ı Hikmet: İnsanın niyeti amelinden daha bereketlidir.",
-                    "18. Kaynak: Fudayl bin İyâz, Tabakatü's-Sufiyye: İhlas, amellerin riyadan tamamen arındırılmasıdır.",
-                    "19. Kaynak: Sehl et-Tüsterî, Tefsirü'l-Kur'an el-Azim: Kalbin huzuru, zikrin en yüksek derecesidir.",
-                    "20. Kaynak: Ahmed er-Rifâî, İrşadü'l-Müslimîn: Aczini bilen kulun kâinata bakışı rahmet ve şefkat doludur."
+                    "1. Kaynak: Bediüzzaman Said Nursî, Sözler (33. Söz - Ehadiyet Risalesi): Bir çiçeği yaratamayan güneşi de yaratamaz.",
+                    "2. Kaynak: Mevlânâ Celâleddîn-i Rûmî, Mesnevi: Zıtlıkların hikmeti ve âlemin nizamı.",
+                    "3. Kaynak: İmam-ı Gazâlî, İhyâ: Beden mimarisi ve uyku mucizesi.",
+                    "4. Kaynak: Muhyiddin İbn Arabî, Füsûs: Şer ve kusur görünenlerin tablodaki renk uyumu.",
+                    "5. Kaynak: İbrahim Hakkı Erzurumî, Marifetname: Zerrattan küreye hikmetler.",
+                    "6. Kaynak: Şah-ı Nakşibend, Nasihatler: İmtihanda rıza göstermek.",
+                    "7. Kaynak: Yunus Emre, Divan: Kudretin tecellisi.",
+                    "8. Kaynak: Abdülkâdir Geylânî, Gunyetü't-Talibîn: Sıkıntıların hikmeti.",
+                    "9. Kaynak: İmam-ı Rabbânî, Mektûbât: Memur olan varlıklar.",
+                    "10. Kaynak: Sadreddin Konevî, Miftâhü'l-Gayb: Ehadiyet mührünün sırrı.",
+                    "11. Kaynak: Cüneyd-i Bağdâdî, Risaleler: Verilmeyen nimetin hikmeti.",
+                    "12. Kaynak: Hacı Bayrâm-ı Velî, Menakıb: İnsan meyvesi.",
+                    "13. Kaynak: Beyazıd-i Bistâmî: İmtihandaki gizli lütuflar.",
+                    "14. Kaynak: Niyâzî-i Mısrî, Divan: Üç boyutlu suret perdesi.",
+                    "15. Kaynak: Eşrefoğlu Rûmî, Müzekki'n-Nüfûs: Gafletten uyanış.",
+                    "16. Kaynak: Aziz Mahmud Hüdâyî, Vâkıfat: Vazifesini yapan zerrat.",
+                    "17. Kaynak: Ferîdüddîn Attâr, Tezkiretü'l-Evliya: Karıncanın azmi.",
+                    "18. Kaynak: Hasan-ı Basrî, Zühd: Ömür sermayesi.",
+                    "19. Kaynak: Sehl et-Tüsterî, Tefsir: Nimetin hakiki şükrü.",
+                    "20. Kaynak: Ken'ân Rifâî, Sohbetler: Çile ve terakki."
                 ]
             },
             "2. Kâinatla Birlikte Zikir, Salavat ve Kesintisiz Secde": {
@@ -331,26 +337,26 @@ insanı hayatta tutar; bu durum tıp biliminde homeostazi ve organ sistemlerinin
                     "20. Kaynak: Sahih-i Müslim, Tevbe, 14: Rahmetin gazabı geçmesi."
                 ],
                 "sages": [
-                    "1. Kaynak: Bediüzzaman Said Nursî, Sözler (33. Söz - Ehadiyet Risalesi): Bir çiçeği yaratamayan güneşi de yaratamaz.",
-                    "2. Kaynak: Mevlânâ Celâleddîn-i Rûmî, Mesnevi: Zıtlıkların hikmeti ve âlemin nizamı.",
-                    "3. Kaynak: İmam-ı Gazâlî, İhyâ: Beden mimarisi ve uyku mucizesi.",
-                    "4. Kaynak: Muhyiddin İbn Arabî, Füsûs: Şer ve kusur görünenlerin tablodaki renk uyumu.",
-                    "5. Kaynak: İbrahim Hakkı Erzurumî, Marifetname: Zerrattan küreye hikmetler.",
-                    "6. Kaynak: Şah-ı Nakşibend, Nasihatler: İmtihanda rıza göstermek.",
-                    "7. Kaynak: Yunus Emre, Divan: Kudretin tecellisi.",
-                    "8. Kaynak: Abdülkâdir Geylânî, Gunyetü't-Talibîn: Sıkıntıların hikmeti.",
-                    "9. Kaynak: İmam-ı Rabbânî, Mektûbât: Memur olan varlıklar.",
-                    "10. Kaynak: Sadreddin Konevî, Miftâhü'l-Gayb: Ehadiyet mührünün sırrı.",
-                    "11. Kaynak: Cüneyd-i Bağdâdî, Risaleler: Verilmeyen nimetin hikmeti.",
-                    "12. Kaynak: Hacı Bayrâm-ı Velî, Menakıb: İnsan meyvesi.",
-                    "13. Kaynak: Beyazıd-i Bistâmî: İmtihandaki gizli lütuflar.",
-                    "14. Kaynak: Niyâzî-i Mısrî, Divan: Üç boyutlu suret perdesi.",
-                    "15. Kaynak: Eşrefoğlu Rûmî, Müzekki'n-Nüfûs: Gafletten uyanış.",
-                    "16. Kaynak: Aziz Mahmud Hüdâyî, Vâkıfat: Vazifesini yapan zerrat.",
-                    "17. Kaynak: Ferîdüddîn Attâr, Tezkiretü'l-Evliya: Karıncanın azmi.",
-                    "18. Kaynak: Hasan-ı Basrî, Zühd: Ömür sermayesi.",
-                    "19. Kaynak: Sehl et-Tüsterî, Tefsir: Nimetin hakiki şükrü.",
-                    "20. Kaynak: Ken'ân Rifâî, Sohbetler: Çile ve terakki."
+                    "1. Kaynak: Bediüzzaman Said Nursî, Lem'alar (30. Lem'a): Kâinattaki her bir zeytin tanesinde ve zerresinde görülen Samedani sikke.",
+                    "2. Kaynak: Mevlânâ Celâleddîn-i Rûmî, Mesnevi: Karıncanın Süleyman Aleyhisselam'a hediyesi ve samimiyetin değeri.",
+                    "3. Kaynak: İmam-ı Gazâlî, İhyâü Ulûmi'd-Din: İnsan organlarının ve sistemlerinin mühendislik harikası.",
+                    "4. Kaynak: Muhyiddin İbn Arabî, Füsûsü'l-Hikem: Varlığın kademelerinde her şeyin kendi hakikatini yaşaması.",
+                    "5. Kaynak: İbrahim Hakkı Erzurumî, Marifetname: Âlem-i sagir (insan) ile âlem-i kebirin (kâinat) mutabakatı.",
+                    "6. Kaynak: Şâh-ı Nakşibend, Nasihatler: Kalbin uyanıklığı ve her nefiste zikir.",
+                    "7. Kaynak: Yunus Emre, Divan: Hak tecellisinin her zerrede kaim olması.",
+                    "8. Kaynak: Abdülkâdir Geylânî, Fütûhu'l-Gayb: Kulun sabır ve şükürle makamları aşması.",
+                    "9. Kaynak: İmam-ı Rabbânî, Mektûbât: Zerrelerin dahi Yaratıcı'yı tespih etmesi.",
+                    "10. Kaynak: Cüneyd-i Bağdâdî, Kuşeyri Risalesi: Tevhidin ve teslimiyetin hakikati.",
+                    "11. Kaynak: Beyazıd-i Bistâmî, Tezkiretü'l-Evliya: Nefsin tezkiyesi ve ilahi marifet.",
+                    "12. Kaynak: Hacı Bayrâm-ı Velî, Evrad ve Dualar: Zenginlik ve fakirliğin imtihan sırrı.",
+                    "13. Kaynak: Aziz Mahmud Hüdâyî, Sohbetnâme: Canlıların ve tabiatın fıtri ibadeti.",
+                    "14. Kaynak: Niyâzî-i Mısrî, Divan: Zıtların aynasında ilahi kemalin tecellisi.",
+                    "15. Kaynak: Sadreddin Konevî, Miftâhü'l-Gayb: Kâinatın vahdet tablosu.",
+                    "16. Kaynak: Eşrefoğlu Rûmî, Müzekki'n-Nüfûs: Nefis terbiyesi ve ahlâk-ı Muhammediye.",
+                    "17. Kaynak: Hasan-ı Basrî, Kelimat-ı Hikmet: Dünyanın geçiciliği ve ahiret bilinci.",
+                    "18. Kaynak: Fudayl bin İyâz, Tabakatü's-Sufiyye: Amellerin en hayırlısının ihlaslı olanı.",
+                    "19. Kaynak: Sehl et-Tüsterî, Tefsir: Kalp nuru ve marifetullah.",
+                    "20. Kaynak: Ahmed er-Rifâî, İrşadü'l-Müslimîn: Yaratılmışlara şefkat ve merhamet."
                 ]
             }
         }
